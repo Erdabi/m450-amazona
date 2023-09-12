@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:latest
+    container_name: amazona_mongo_container
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: m450s3cr3t
+    ports:
+      - 37017:27017
