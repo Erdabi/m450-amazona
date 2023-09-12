@@ -44,10 +44,10 @@ $ npm start
 - Run this on chrome: http://localhost:9999/api/products/seed
 - It creates 6 sample products
 
-### 6. Admin Login
+### 6. Login
 
 - Run http://localhost:3000/signin
-- Enter admin email and password and click signin
+- Enter admin/user email and password and click signin
 
 **Admin User**
 
