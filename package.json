@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "build": "cd frontend && npm install && npm run build",
-    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/basir/amazona#readme",
   "devDependencies": {
+    "cypress": "^13.2.0",
     "eslint": "^7.9.0",
     "eslint-plugin-react": "^7.21.2",
     "nodemon": "^2.0.4"
